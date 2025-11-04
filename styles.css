@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 18px;
+    color: hsl(35, 12%, 20%);
+}
+
+body {
+    width: 75%;
+    margin: 16px auto;
+    padding: 0 8px 0 8px;
+    background-color: hsl(43, 26%, 95%);
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    border-bottom: 2px dotted hsl(35, 12%, 20%);
+    font-size: 24px;
+}
+
+p,
+ul,
+ol {
+    background-color: hsl(43, 26%, 93%);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+img {
+    display: block;
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid hsl(43, 26%, 85%);
+    background-color: hsl(43, 26%, 75%);
+    padding: 2px;
+}
+
+a {
+    color: hsl(35, 12%, 45%);
+}
+
+a:visited {
+    color: hsl(60, 27%, 44%);
+}
